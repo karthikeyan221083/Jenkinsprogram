@@ -1,11 +1,6 @@
-pipeline {
-    agent any
+a = 10
+b = 20
 
-    stages {
-        stage('Run Python') {
-            steps {
-                sh 'python3 Addition.py'
-            }
-        }
-    }
-}
+sum = a + b
+
+print("Addition =", sum)
